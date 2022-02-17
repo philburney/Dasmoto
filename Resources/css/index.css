@@ -2,8 +2,15 @@
 
 * {
     font-family: Helvetica;
+  
 }
 
+body {
+    margin: 0;
+}
+section  {
+        padding: 8px;
+}
 /*Main header styling*/
 h1 {
     font-size: 100px;
@@ -16,6 +23,12 @@ h1 {
     box-shadow: 5px 5px 5px #1e1e1e;
     margin-top: 50px;
     margin-bottom: 0;
+    position: fixed;
+    display: inline-block;
+    float: left;
+    width: 90%;
+    left: 5%;
+    
 }
 
 /*Set section headers to 32px, bold, white font and slight indent*/
@@ -24,11 +37,12 @@ h2 {
     font-weight: bold;
     color:white;
     padding-left: 10px;
-    margin-top: 1.1em;
+    margin-top: 200px;
 }
 
 #brushes h2 {
     background-color: mediumspringgreen;
+    
 }
 
 #frames h2 {
@@ -65,6 +79,7 @@ ul {
     text-align: center;
     background-color: aqua;
     margin-top: 0;
+    padding-left: 0;
 }
 
 li {
