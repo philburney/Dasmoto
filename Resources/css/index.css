@@ -1,19 +1,30 @@
+/* Set global font*/
+
 * {
     font-family: Helvetica;
 }
 
+/*Main header styling*/
 h1 {
     font-size: 100px;
     font-weight: bold;
     text-align: center;
     color: khaki;
     background-image: url("../images/pattern.webp");
+    border: 1px solid #000033;
+    border-radius: 15px; 
+    box-shadow: 5px 5px 5px #1e1e1e;
+    margin-top: 50px;
+    margin-bottom: 0;
 }
 
+/*Set section headers to 32px, bold, white font and slight indent*/
 h2 {
     font-size: 32px;
     font-weight: bold;
-    color:white
+    color:white;
+    padding-left: 10px;
+    margin-top: 1.1em;
 }
 
 #brushes h2 {
@@ -29,7 +40,37 @@ h2 {
     background-color: skyblue;
 }
 
+
+/*style to pricing to blue and bold */
 span.price {
         color:blue;
         font-weight: bold;
 }
+
+/*Add shadow and rounded edges to all images*/
+img {
+    box-shadow: 5px 5px #ccc;
+    border-radius: 15px;
+}
+
+/*Navigation bar styling*/
+
+nav {
+    top: 0;
+    width: 100%;
+    position: fixed;
+}
+
+ul {
+    text-align: center;
+    background-color: aqua;
+    margin-top: 0;
+}
+
+li {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+ }
